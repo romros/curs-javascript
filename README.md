@@ -1,5 +1,15 @@
 # 🎯 JavaScript per a Llenguatge de Marques
 
+## Índex de Continguts
+1. [🚀 Introducció a JavaScript](01-introduccio/index.md)
+2. [🌳 El DOM: La nostra finestra al document](02-dom/index.md)
+3. [🎯 Seleccionant Elements del DOM](03-selectors/index.md)
+4. [✨ Modificant Elements del DOM](04-modificant-elements/index.md)
+5. [🎮 Events: Fent la Pàgina Interactiva](05-events/index.md)
+6. [📝 Formularis i Validacions](06-formularis/index.md)
+7. [⚔️ JavaScript vs CSS: Quan Utilitzar Cada Un](07-javascript-vs-css/index.md)
+8. [🔄 Càrrega Dinàmica: Actualitzant Contingut](08-carrega-dinamica/index.md)
+
 ## Introducció
 **Per què és important?** JavaScript és l'eina que converteix les nostres pàgines estàtiques en experiències interactives.
 
