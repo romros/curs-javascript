@@ -10,116 +10,87 @@
 7. [⚔️ JavaScript vs CSS: Quan Utilitzar Cada Un](07-javascript-vs-css/index.md)
 8. [🔄 Càrrega Dinàmica: Actualitzant Contingut](08-carrega-dinamica/index.md)
 
-## Introducció
-**Per què és important?** JavaScript és l'eina que converteix les nostres pàgines estàtiques en experiències interactives.
+## Resum del Curs
++ Aquest minicurs està dissenyat per aprendre JavaScript des de zero, enfocant-nos en la manipulació del DOM i la interactivitat web.
++ 
++ ### Objectius del Curs
++ - Entendre els fonaments de JavaScript
++ - Aprendre a manipular el DOM
++ - Crear interaccions dinàmiques
++ - Validar formularis
++ - Distingir quan usar JavaScript vs CSS
++ 
++ ### Metodologia
++ - Explicacions teòriques breus
++ - Exemples pràctics
++ - Exercicis guiats
++ - Reptes per practicar
++ 
++ ### Per a cada tema trobaràs:
++ - Explicació del concepte
++ - Codi d'exemple
++ - Exercici pràctic
++ - Reptes addicionals
++ - Recursos per aprendre més
 
-- Per què necessitem JavaScript?
-  - HTML és estàtic, necessitem dinamisme
-  - Exemples del món real: formularis, jocs, aplicacions web
-  - JavaScript com a complement, no substitut de HTML/CSS
+## Recursos Generals
+- MDN Web Docs: https://developer.mozilla.org/ca/docs/Web/JavaScript
+- W3Schools JavaScript: https://www.w3schools.com/js/
+- JavaScript.info: https://javascript.info/
+- Exercicis pràctics: https://www.codecademy.com/learn/introduction-to-javascript
 
-## 1. El DOM: La nostra finestra al document
-**Per què és important?** El DOM és el pont que connecta el nostre codi amb la pàgina web. Sense entendre'l, no podem manipular els elements.
+## Com utilitzar aquest curs
+1. Segueix els temes en ordre
+2. Practica amb els exemples
+3. Fes els exercicis proposats
+4. Intenta els reptes addicionals
+5. Consulta els recursos per aprofundir
 
-- Què és el DOM?
-  - L'estructura d'arbre del document
-  - Com JavaScript "veu" la nostra pàgina
-  - Elements, atributs i contingut
-- Per què és important?
-  - Pont entre HTML i JavaScript
-  - Ens permet modificar la pàgina en temps real
+## Requisits previs
+- Coneixements bàsics d'HTML
+- Coneixements bàsics de CSS
+- Ganes d'aprendre! 🚀 
 
-## 2. Seleccionant Elements
-**Per què és important?** No podem modificar allò que no podem trobar. Els selectors són les nostres eines de cerca dins la pàgina.
+## Síntesi dels Temes
 
-- Com trobar elements al DOM
-  - document.querySelector()
-  - document.querySelectorAll()
-- Pràctica:
-  - Trobar elements per ID
-  - Trobar elements per classe
-  - Trobar elements per tipus
-  - Combinar selectors
+### 1. 🚀 Introducció a JavaScript
+**Què aprendrem?** Els fonaments de JavaScript i com s'integra amb HTML i CSS.
+**Per què és important?**
+- A Llenguatge de Marques: Complementa l'HTML estàtic amb dinamisme
+- A la vida real: Les webs modernes necessiten interactivitat (formularis, menús, validacions)
 
-## 3. Modificant Elements
-**Per què és important?** La capacitat de modificar elements en temps real és el que dona vida a les nostres pàgines web.
+### 2. 🌳 El DOM
+**Què aprendrem?** Com JavaScript "veu" i interactua amb l'estructura HTML.
+**Per què és important?**
+- A Llenguatge de Marques: Connecta els documents HTML amb la programació
+- A la vida real: Permet modificar contingut en temps real (xarxes socials, aplicacions web)
 
-- Canviar contingut
-  - textContent vs innerHTML
-- Modificar estils
-  - style
-  - classList (add, remove, toggle)
-- Crear i eliminar elements
-  - createElement()
-  - appendChild()
-  - removeChild()
+### 3. 🎯 Selectors
+**Què aprendrem?** Com trobar elements específics en una pàgina web.
+**Per què és important?**
+- A Llenguatge de Marques: Complementa els selectors CSS que ja coneixem
+- A la vida real: Necessari per modificar elements específics (menús desplegables, botons)
 
-## 4. Events: Fent la Pàgina Interactiva
-**Per què és important?** Els events són la base de la interactivitat. Sense ells, les nostres pàgines serien simplement documents estàtics.
+### 4. ✨ Modificant Elements
+**Què aprendrem?** Com canviar contingut, estils i estructura dinàmicament.
+**Per què és important?**
+- A Llenguatge de Marques: Permet crear contingut dinàmic
+- A la vida real: Actualitzacions en temps real, interfícies interactives
 
-- Què són els events?
-  - click
-  - submit
-  - change
-- Com escoltar events
-  - addEventListener
-  - Funcions callback bàsiques
-- Pràctica:
-  - Crear botons interactius
-  - Formularis simples
+### 5. 🎮 Events
+**Què aprendrem?** Com respondre a les accions de l'usuari.
+**Per què és important?**
+- A Llenguatge de Marques: Afegeix interactivitat real a les pàgines
+- A la vida real: Essencial per qualsevol aplicació web (clics, formularis, etc.)
 
-## 5. Validacions i Formularis
-**Per què és important?** La validació assegura que les dades que rebem són correctes i millora l'experiència de l'usuari.
+### 6. 📝 Formularis i Validacions
+**Què aprendrem?** Com gestionar i validar dades d'entrada.
+**Per què és important?**
+- A Llenguatge de Marques: Millora els formularis HTML bàsics
+- A la vida real: Crucial per recollir dades correctes dels usuaris
 
-- Per què validar?
-  - Experiència d'usuari
-  - Seguretat bàsica
-- Tipus de validacions
-  - Camps obligatoris
-  - Formats específics (email, telèfon)
-  - Longitud mínima/màxima
-
-## 6. Mini-Projectes Pràctics
-**Per què és important?** La pràctica és la millor manera d'aprendre. Aquests projectes consoliden tots els conceptes apresos.
-
-- Comptador simple
-- Canviador de colors
-- Validador de formulari
-- Llista de tasques bàsica
-
-## 7. JavaScript vs CSS
-**Per què és important?** Escollir l'eina adequada per cada tasca millora el rendiment i la mantenibilitat del nostre codi.
-
-- Quan usar cada un?
-  - Animacions: millor amb CSS
-  - Interactivitat: millor amb JavaScript
-- Bones pràctiques
-  - Rendiment
-  - Mantenibilitat
-
-## 8. Extra: Càrrega Dinàmica (Si hi ha temps)
-**Per què és important?** La càrrega dinàmica permet crear aplicacions web més ràpides i eficients.
-
-- Què és AJAX?
-- Fetch API bàsic
-- Carregar contingut sense recarregar la pàgina
-
-## Recursos i Referències
-**Per què és important?** L'aprenentatge continu és clau en el desenvolupament web.
-
-- MDN Web Docs
-- W3Schools
-- Exercicis pràctics addicionals
-- Projectes d'exemple
-
-## Notes pel Professor
-**Per què és important?** Una bona estructura d'ensenyament facilita l'aprenentatge dels alumnes.
-
-- Cada secció hauria d'incloure:
-  - Explicació teòrica breu
-  - Exemple pràctic
-  - Exercici per als alumnes
-  - Repte opcional
-- Emfatitzar la pràctica sobre la teoria
-- Utilitzar exemples del món real
-- Fomentar l'experimentació 
+### 7. ⚔️ JavaScript vs CSS
+**Què aprendrem?** Quan usar cada tecnologia per a diferents efectes.
+**Per què és important?**
+- A Llenguatge de Marques: Integra els coneixements de CSS i JavaScript
+- A la vida real: Optimitza el rendiment i manteniment de les webs 
