@@ -61,28 +61,23 @@ Anem a crear un formulari amb validacions!
             <input type="text" id="nom" name="nom" required>
             <div id="error-nom" class="error">El nom ha de tenir almenys 3 caràcters</div>
         </div>
-
         <div class="form-group">
             <label for="email">Email:</label>
             <input type="email" id="email" name="email" required>
             <div id="error-email" class="error">L'email no és vàlid</div>
         </div>
-
         <div class="form-group">
             <label for="edat">Edat:</label>
             <input type="number" id="edat" name="edat" required>
             <div id="error-edat" class="error">L'edat ha de ser entre 18 i 99</div>
         </div>
-
         <button type="submit">Enviar</button>
     </form>
-
     <script>
         const form = document.getElementById('registre');
         const nom = document.getElementById('nom');
         const email = document.getElementById('email');
         const edat = document.getElementById('edat');
-
         // Validació en temps real
         nom.addEventListener('input', function() {
             const errorNom = document.getElementById('error-nom');
@@ -96,31 +91,26 @@ Anem a crear un formulari amb validacions!
                 this.classList.add('valid');
             }
         });
-
         // Validació del formulari complet
         form.addEventListener('submit', function(e) {
             let valid = true;
-
             // Validar nom
             if (nom.value.length < 3) {
                 valid = false;
                 document.getElementById('error-nom').style.display = 'block';
             }
-
             // Validar email
             const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
             if (!emailRegex.test(email.value)) {
                 valid = false;
                 document.getElementById('error-email').style.display = 'block';
             }
-
             // Validar edat
             const edatNum = parseInt(edat.value);
             if (edatNum < 18 || edatNum > 99) {
                 valid = false;
                 document.getElementById('error-edat').style.display = 'block';
             }
-
             if (!valid) {
                 e.preventDefault();
             } else {
